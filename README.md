@@ -5,5 +5,5 @@
 ### Course Instructor : Kollol Dey
 
 <p align="center"> 
-<img  width="75%" src="https://postimg.cc/PCx1xV9n">
+<img  width="75%" src="https://i.postimg.cc/Vk9gK3Fv/bisection.png">
 </p>
