@@ -20,6 +20,7 @@ double f(double x)
 int main()
 {
     double x = 2.0, y = 3.0, mid = 0.00;
+    
     if (f(x) * f(y) > 0)
     {
         cout << "The root doesn't lies between the given interval" << endl;
