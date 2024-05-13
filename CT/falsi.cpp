@@ -1,17 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const double error = 1e-8;
+const double error = 1e-5;
 double f(double x)
 {
     //    return ((x * x) + log(x) - 2);
-    return exp(-x) - 10 * x;
+    // return exp(-x) - 10 * x;
+    // return ((x * x * x) - (2 * x * x) - 4);
+    // return ((sin(x) * sin(x)) - (x * x) + 1);
+    // return ((x * x) + log(x) - 2);
+    return ((sin(x) * sin(x)) - (x * x) + 1);
 }
 
 int main()
 {
     double Xo, X1, X;
-    cout << "Enter The Initial Values : " << endl;
+    cout << "Enter the interval [a, b]: ";
     cin >> Xo >> X1;
     if ((f(Xo) * f(X1)) < 0)
     {
