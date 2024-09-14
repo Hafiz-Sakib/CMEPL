@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  14 SEP 2024 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  14 SEP 2024 13:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,47 +779,47 @@ Overfull \hbox (25.19997pt too wide) in paragraph at lines 77--93
 File: bisection_code.png Graphic file (type png)
 <use bisection_code.png>
 Package pdftex.def Info: bisection_code.png  used on input line 161.
-(pdftex.def)             Requested size: 351.27641pt x 421.54631pt.
+(pdftex.def)             Requested size: 351.27641pt x 521.91447pt.
 
 
 [2]
-<bisection_output.png, id=41, 387.24675pt x 272.217pt>
+
+[3 <./bisection_code.png>]
+<bisection_output.png, id=47, 387.24675pt x 272.217pt>
 File: bisection_output.png Graphic file (type png)
 <use bisection_output.png>
-Package pdftex.def Info: bisection_output.png  used on input line 169.
+Package pdftex.def Info: bisection_output.png  used on input line 170.
 (pdftex.def)             Requested size: 501.90802pt x 321.23401pt.
 
-Overfull \hbox (48.94012pt too wide) in paragraph at lines 169--174
+Overfull \hbox (48.94012pt too wide) in paragraph at lines 170--175
  [] 
  []
 
 
-
-[3 <./bisection_code.png>]
 
 [4 <./bisection_output.png>]
 <falsi_code.png, id=63, 2515.3975pt x 3336.465pt>
 File: falsi_code.png Graphic file (type png)
 <use falsi_code.png>
-Package pdftex.def Info: falsi_code.png  used on input line 220.
-(pdftex.def)             Requested size: 351.30885pt x 421.53722pt.
-<falsi_output1.png, id=64, 319.79475pt x 142.73325pt>
-File: falsi_output1.png Graphic file (type png)
-<use falsi_output1.png>
-Package pdftex.def Info: falsi_output1.png  used on input line 228.
-(pdftex.def)             Requested size: 476.79729pt x 180.69203pt.
-
-Overfull \hbox (23.82939pt too wide) in paragraph at lines 228--233
- [] 
- []
-
+Package pdftex.def Info: falsi_code.png  used on input line 221.
+(pdftex.def)             Requested size: 351.30885pt x 501.87366pt.
 
 
 [5 <./falsi_code.png>]
-<newton_code.png, id=74, 3011.25pt x 4241.8475pt>
+<falsi_output1.png, id=72, 319.79475pt x 142.73325pt>
+File: falsi_output1.png Graphic file (type png)
+<use falsi_output1.png>
+Package pdftex.def Info: falsi_output1.png  used on input line 230.
+(pdftex.def)             Requested size: 476.79729pt x 180.69203pt.
+
+Overfull \hbox (23.82939pt too wide) in paragraph at lines 230--235
+ [] 
+ []
+
+<newton_code.png, id=73, 3011.25pt x 4241.8475pt>
 File: newton_code.png Graphic file (type png)
 <use newton_code.png>
-Package pdftex.def Info: newton_code.png  used on input line 274.
+Package pdftex.def Info: newton_code.png  used on input line 276.
 (pdftex.def)             Requested size: 351.27182pt x 421.55586pt.
 
 
@@ -827,10 +827,10 @@ Package pdftex.def Info: newton_code.png  used on input line 274.
 <newton_output.png, id=91, 575.751pt x 326.4195pt>
 File: newton_output.png Graphic file (type png)
 <use newton_output.png>
-Package pdftex.def Info: newton_output.png  used on input line 282.
+Package pdftex.def Info: newton_output.png  used on input line 284.
 (pdftex.def)             Requested size: 476.80142pt x 180.68182pt.
 
-Overfull \hbox (23.83353pt too wide) in paragraph at lines 282--287
+Overfull \hbox (23.83353pt too wide) in paragraph at lines 284--289
  [] 
  []
 
@@ -855,7 +855,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  110i,8n,107p,10980b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (8 pages, 1216494 bytes).
+Output written on main.pdf (8 pages, 1218117 bytes).
 PDF statistics:
  165 PDF objects out of 1000 (max. 8388607)
  49 named destinations out of 1000 (max. 500000)

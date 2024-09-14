@@ -158,12 +158,13 @@ where:
 
 \subsection*{Source Code : }
 \begin{center}
-    {\includegraphics[width=350px, height=420px]{bisection_code.png}}
+    {\includegraphics[width=350px, height=520px]{bisection_code.png}}
     \parbox{0.8\textwidth}{ 
         \centering
         \textbf{Figure : Source Code for Bisection Method}
     }
 \end{center}
+\newpage
 \subsection*{Output : }
 \begin{center}
     {\includegraphics[width=500px, height=320px]{bisection_output.png}}
@@ -217,11 +218,12 @@ where:
 
 \subsection*{Source Code : }
 \begin{center}
-    {\includegraphics[width=350px, height=420px]{falsi_code.png}}
+    {\includegraphics[width=350px, height=500px]{falsi_code.png}}
     \parbox{0.8\textwidth}{ 
         \centering
         \textbf{Figure : Source Code for Falsi Method}
     }
+\newpage
 \end{center}
 \subsection*{Output : }
 \begin{center}
@@ -286,8 +288,17 @@ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
     }
 \end{center}
 
-
 \section*{Conclusion}
-This report demonstrates the implementation of the Bisection, False Position, and Newton-Raphson methods for solving a root-finding problem. Each method successfully finds the root, and the code and outputs are included to show the process and results. Further analysis could compare the efficiency and convergence behavior of these methods.
 
+In this report, we have demonstrated the implementation of three root-finding methods: the Bisection method, the False Position (Falsi) method, and the Newton-Raphson method. Each method offers a unique approach to approximating the roots of a function:
+
+\begin{itemize}
+    \item The Bisection method provides a reliable but slower approach by iteratively narrowing down an interval where the root lies.
+    \item The False Position method improves upon the Bisection method by using a secant line to enhance convergence speed while still requiring an interval with a sign change.
+    \item The Newton-Raphson method offers rapid convergence near the root by using the function's derivative, though it depends on a good initial guess and the availability of the derivative.
+\end{itemize}
+
+The provided code and outputs illustrate the practical application of these methods, showcasing their ability to find roots effectively. While the Bisection and False Position methods are useful for their simplicity and reliability, the Newton-Raphson method stands out for its efficiency in converging to the root under suitable conditions.
+
+Overall, this report highlights the versatility of these root-finding techniques and their applicability in solving mathematical equations. Each method has its advantages and limitations, making them suitable for different scenarios based on the problem's requirements and characteristics.
 \end{document}
