@@ -1,12 +1,3 @@
-// Bismillahir Rahmanir Rahim
-/*
-
-string author;
-author = Hafiz_Sakib;
-long long Id = 0222210005101118;
-
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -15,9 +6,6 @@ const double error = 1e-4;
 
 double f(double x)
 {
-    // return ((x * x * x) - (2 * x * x) - 4);
-    // return ((sin(x) * sin(x)) - (x * x) + 1);
-    // return ((x * x) + log(x) - 2);
     return ((sin(x) * sin(x)) - (x * x) + 1);
 }
 
@@ -36,8 +24,6 @@ int main()
     while (abs(x - y) > error)
     {
         mid = (x + y) / 2.00;
-        cout << "Mid Value = " << mid << endl;
-        cout << "f(mid) Value = " << f(mid) << endl;
         if (f(mid) == 0)
         {
             break;
