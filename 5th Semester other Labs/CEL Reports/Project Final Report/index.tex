@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage[table,xcdraw]{xcolor} % For coloring the table
+
+\renewcommand{\arraystretch}{4.0} % Adjust row height (1.5 times default)
+
+\begin{document}
+
+\begin{center}
+\hspace{3cm}
+\textbf{\Large INDEX} 
+\end{center}
+
+\begin{longtable}{|c|>{\centering\arraybackslash}p{12cm}|}
+\hline
+\rowcolor{green!20} 
+\textbf{Experiment No} & \textbf{Experiment Name} \\
+\hline
+\endfirsthead
+\hline
+\rowcolor{green!20} 
+\textbf{Experiment No} & \textbf{Experiment Name} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
+1 & Introduction with the Necessary Components Required in Communication Engineering Laboratory \\
+\hline
+2 & Double Sideband Suppressed Carrier AM Generation \\
+\hline
+3 & Double Sideband Suppressed Carrier AM Detection \\
+\hline
+4 & Frequency Modulation using Varactor Modulator \\
+\hline
+5 & Frequency Demodulation using Phase-Locked Loop \\
+\hline
+6 & Study of Signal Sampling and Reconstruction Techniques \\
+\hline
+\end{longtable}
+
+\end{document}
