@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726326532.45673 "c:/PU Projects/PUC Courses/5th Semester/CMEPL/Final Report/main.tex" "main.pdf" "main" 1726326536.98134 0
+["pdflatex"] 1726327341.14231 "c:/PU Projects/PUC Courses/5th Semester/CMEPL/Final Report/main.tex" "main.pdf" "main" 1726327345.54838 0
   "C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726238112 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1719207537 12668 206e4154b0970038c7f581c9852ad9ff ""
   "C:/Users/SAKIB/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1719207405 24264027 a7f34fefe87fe86baee30336a400e02b ""
@@ -189,13 +189,13 @@
   "C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "bisection_code.png" 1726294663 635925 34487efb7a39f0a7594f25644b51e7e5 ""
   "bisection_output.png" 1726296392 35859 2292e96d6d6076fd9b095c5bf44b7b23 ""
-  "c:/PU Projects/PUC Courses/5th Semester/CMEPL/Final Report/main.tex" 1726326531 10475 9a13def314fddf74994bb7641c051706 ""
+  "c:/PU Projects/PUC Courses/5th Semester/CMEPL/Final Report/main.tex" 1726327340 10475 93dd1f3f6cd121820e607f879e38e298 ""
   "falsi_code.png" 1726294149 540957 ee30205db384db591907da24cc3dc6ed ""
   "falsi_output1.png" 1726297034 25386 9a4500146f9ff3fbc710f548e2729c27 ""
   "logo.png" 1719804206 41778 0576eb36ac3f5a9a9eaa42153e89f104 ""
-  "main.aux" 1726326536 328 590f7bdbe743a32fecf39b8e8fdfefc4 "pdflatex"
-  "main.out" 1726326534 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1726326531 10475 9a13def314fddf74994bb7641c051706 ""
+  "main.aux" 1726327345 328 590f7bdbe743a32fecf39b8e8fdfefc4 "pdflatex"
+  "main.out" 1726327343 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1726327340 10475 93dd1f3f6cd121820e607f879e38e298 ""
   "newton_code.png" 1726294881 750196 ba228ca9495408dbccc9f1a398894625 ""
   "newton_output.png" 1726294923 37622 350c8c29880ae2bdf4a0a7b121b8c24a ""
   (generated)
