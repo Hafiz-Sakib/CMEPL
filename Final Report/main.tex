@@ -2,6 +2,8 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{array}
+\usepackage{amsmath}
+\usepackage[a4paper, margin=1in]{geometry}
 \usepackage{tikz} 
 \usepackage{underscore}
 \usepackage[bookmarks=true]{hyperref}
@@ -74,17 +76,17 @@
     \renewcommand{\arraystretch}{1.5} 
     \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
         \hline
-        \textbf{Name} & Mohammad Hafizur Rahman Sakib \\
+        \textbf{Name} & Mohammad Hafizur Rahman Sakib \\ 
         \hline
-        \textbf{ID} & 0222210005101118 \\
+        \textbf{ID} & 0222210005101118 \\ 
         \hline
-        \textbf{chapter} & C \\
+        \textbf{chapter} & C \\ 
         \hline
-        \textbf{Session} & Spring 2024 \\
+        \textbf{Session} & Spring 2024 \\ 
         \hline
-        \textbf{Semester} & 5th Semester \\
+        \textbf{Semester} & 5th Semester \\ 
         \hline
-        \textbf{Submission Date} & 14.09.2024 \\
+        \textbf{Submission Date} & 14.09.2024 \\ 
         \hline
     \end{tabular}
     \vspace{1cm}
@@ -95,8 +97,8 @@
         Lecturer, Department of EEE\\
         Premier University\\
         Chittagong
-    \end{minipage}%
-    \hfill
+    \end{minipage}% 
+    \hfill 
     \begin{minipage}[t]{0.48\textwidth}
         \raggedleft
         \textbf{Remarks}\\
@@ -110,63 +112,182 @@
     \vfill
 \end{titlepage}
 
-\section{Introduction}
+\section*{Introduction}
 This report presents the implementation and output of three widely used root-finding methods: the Bisection method, the False Position (Falsi) method, and the Newton-Raphson method. Each method is applied to solve a given mathematical equation, and the code along with its output is provided. The goal is to demonstrate how each algorithm approaches root finding without comparing their efficiencies or convergence rates.
 
-\section{Methods}
+\section*{Bisection Method}
 
-\subsection{Bisection Method}
-The Bisection method is a simple iterative algorithm for finding roots by repeatedly dividing an interval in half and selecting the subinterval where the root lies. The process is repeated until the interval is sufficiently small.
+The Bisection method is an iterative technique for finding the root of a function by repeatedly dividing an interval in half and selecting the subinterval where the root lies.
 
-\subsubsection{Source Code}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{path/to/code_image_bisection.png}
-    \caption{Bisection Method Source Code}
-\end{figure}
+\subsection*{Formula}
 
-\subsubsection{Output}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{path/to/output_image_bisection.png}
-    \caption{Bisection Method Output}
-\end{figure}
+Given a function \( f(x) \) and an interval \([a, b]\) where \( f(a) \) and \( f(b) \) have opposite signs, the next approximation \( x_{n+1} \) is calculated using:
 
-\subsection{False Position (Falsi) Method}
-The False Position method is similar to the Bisection method but chooses the next interval based on a secant line, which improves the speed of convergence.
+\begin{equation}
+x_{n+1} = \frac{a + b}{2}
+\end{equation}
 
-\subsubsection{Source Code}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{path/to/code_image_falsi.png}
-    \caption{False Position Method Source Code}
-\end{figure}
+where:
+- \( a \) and \( b \) are the current interval bounds.
 
-\subsubsection{Output}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{path/to/output_image_falsi.png}
-    \caption{False Position Method Output}
-\end{figure}
+\subsection*{Steps}
 
-\subsection{Newton-Raphson Method}
-The Newton-Raphson method uses the derivative of the function to find successive approximations to the root. It typically converges faster but requires a good initial guess.
+\begin{enumerate}
+    \item Choose an initial interval \([a, b]\) such that \( f(a) \) and \( f(b) \) have opposite signs.
+    \item Compute the midpoint \( x_{n+1} \) using:
+    \begin{equation}
+    x_{n+1} = \frac{a + b}{2}
+    \end{equation}
+    \item Determine the subinterval \([a, x_{n+1}]\) or \([x_{n+1}, b]\) where the function changes sign.
+    \item Repeat until the interval size \( |b - a| \) is smaller than a predefined tolerance.
+\end{enumerate}
 
-\subsubsection{Source Code}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{path/to/code_image_newtonraphson.png}
-    \caption{Newton-Raphson Method Source Code}
-\end{figure}
+\subsection*{Advantages}
 
-\subsubsection{Output}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{path/to/output_image_newtonraphson.png}
-    \caption{Newton-Raphson Method Output}
-\end{figure}
+\begin{itemize}
+    \item Guarantees convergence if the initial interval contains a root.
+    \item Simple and easy to implement.
+\end{itemize}
 
-\section{Conclusion}
+\subsection*{Limitations}
+
+\begin{itemize}
+    \item Can be slow to converge compared to other methods.
+    \item Requires the function to be continuous.
+\end{itemize}
+
+\subsection*{Source Code : }
+\begin{center}
+    {\includegraphics[width=350px, height=420px]{bisection_code.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Source Code for Bisection Method}
+    }
+\end{center}
+\subsection*{Output : }
+\begin{center}
+    {\includegraphics[width=500px, height=320px]{bisection_output.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Output for Bisection Method}
+    }
+\end{center}
+\section*{False Position (Falsi) Method}
+
+The False Position method is an iterative technique for finding the roots of a function. It improves on the Bisection method by using a secant line to estimate the root.
+
+\subsection*{Formula}
+
+Given a function \( f(x) \), the next approximation \( x_{n+1} \) is calculated using:
+
+\begin{equation}
+x_{n+1} = x_n - \frac{f(x_n) \cdot (x_u - x_n)}{f(x_u) - f(x_n)}
+\end{equation}
+
+where:
+- \( x_n \) is the current approximation.
+- \( x_u \) is the upper bound of the interval.
+
+\subsection*{Steps}
+
+\begin{enumerate}
+    \item Choose initial guesses \( x_l \) and \( x_u \) such that \( f(x_l) \) and \( f(x_u) \) have opposite signs.
+    \item Compute the next approximation using:
+    \begin{equation}
+    x_{n+1} = x_n - \frac{f(x_n) \cdot (x_u - x_n)}{f(x_u) - f(x_n)}
+    \end{equation}
+    \item Update the interval based on the sign of \( f(x_{n+1}) \).
+    \item Repeat until the difference \( |x_{n+1} - x_n| \) is smaller than a predefined tolerance.
+\end{enumerate}
+
+\subsection*{Advantages}
+
+\begin{itemize}
+    \item Faster convergence than the Bisection method.
+    \item Does not require derivative information.
+\end{itemize}
+
+\subsection*{Limitations}
+
+\begin{itemize}
+    \item May converge slowly if the function is not well-behaved.
+    \item Requires an initial interval with a sign change.
+\end{itemize}
+
+
+\subsection*{Source Code : }
+\begin{center}
+    {\includegraphics[width=350px, height=420px]{falsi_code.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Source Code for Falsi Method}
+    }
+\end{center}
+\subsection*{Output : }
+\begin{center}
+    {\includegraphics[width=475px, height=180px]{falsi_output1.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Output for Falsi Method}
+    }
+\end{center}
+
+\section*{Newton-Raphson Method}
+
+The Newton-Raphson method is an iterative technique for approximating the roots of a function. It uses the function's derivative to refine guesses for the root.
+
+\subsection*{Formula}
+
+Given a function \( f(x) \) and its derivative \( f'(x) \), the iteration formula is:
+
+\begin{equation}
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+\end{equation}
+
+\subsection*{Steps}
+
+\begin{enumerate}
+    \item Start with an initial guess \( x_0 \).
+    \item Update the guess using:
+    \begin{equation}
+    x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+    \end{equation}
+    \item Repeat until \( |x_{n+1} - x_n| \) is smaller than a predefined tolerance.
+\end{enumerate}
+
+\subsection*{Advantages}
+
+\begin{itemize}
+    \item Fast convergence near the root.
+    \item Simple to implement.
+\end{itemize}
+
+\subsection*{Limitations}
+
+\begin{itemize}
+    \item Requires a good initial guess.
+    \item Needs the derivative of the function.
+\end{itemize}
+
+\subsection*{Source Code : }
+\begin{center}
+    {\includegraphics[width=350px, height=420px]{newton_code.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Source Code for Newton Raphson Method}
+    }
+\end{center}
+\subsection*{Output : }
+\begin{center}
+    {\includegraphics[width=475px, height=180px]{newton_output.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Output for Newton Raphson Method}
+    }
+\end{center}
+
+
+\section*{Conclusion}
 This report demonstrates the implementation of the Bisection, False Position, and Newton-Raphson methods for solving a root-finding problem. Each method successfully finds the root, and the code and outputs are included to show the process and results. Further analysis could compare the efficiency and convergence behavior of these methods.
 
 \end{document}
