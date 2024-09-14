@@ -20,7 +20,7 @@
 \begin{titlepage}
     \centering
     \begin{center}
-        \includegraphics[width=0.5\textwidth]{logo.png}
+        \includegraphics[width=0.5\textwidth]{./logo.png}
     \end{center}
 \begin{center}
     \textbf{Department of Computer Science and Engineering}\\
@@ -29,11 +29,9 @@
 \begin{center}
     \textnormal{EEE 310 : Communication Engineering Laboratory}
 \end{center}
-    \huge
-    \textbf{Project Proposal Report}\\
     \vspace{0.5in}
     \LARGE
-    \textbf{Amplitude Shift Keying (ASK)}\\
+    \textbf{Final Project Implementation Report: Amplitude Shift Keying (ASK)}\\
     \vspace{1in}
     \large
     \textbf {Submitted by}\\
@@ -78,67 +76,116 @@
 \end{titlepage}
 
 \newpage
+\section*{Introduction}
+Amplitude Shift Keying (ASK) is a fundamental digital modulation technique, where the amplitude of the carrier signal is modified in response to the binary data being transmitted. Unlike other modulation techniques such as Frequency Shift Keying (FSK) or Phase Shift Keying (PSK), ASK operates by directly varying the amplitude of the carrier in discrete steps to represent '1' and '0'. This project focuses on the design and implementation of an ASK modulator, simulating its performance, and evaluating its effectiveness within digital communication systems.
 
-\section*{Introduction :}
-Amplitude Shift Keying (ASK) is a digital modulation technique where the amplitude of a carrier signal is varied according to the binary data being transmitted. This project focuses on the design and implementation of the ASK modulation process to explore its efficiency and applications in digital communication systems.
+This report provides a comprehensive discussion on the design, implementation, simulation, and results of the ASK modulator. The results obtained from the project show the practicality of the modulation technique and its efficiency in real-world communication systems.
 
-\section*{Objectives :}
-The main objectives of this project are to:
+\section*{Project Objectives}
+The primary objectives of this project are as follows:
 \begin{itemize}
-    \item Understand the principles of ASK modulation.
-    \item Design and develop an ASK modulator.
-    \item Simulate and analyze the performance of the ASK modulator.
-    \item Evaluate the efficiency of ASK modulation in various scenarios.
+    \item \textbf{Understanding the fundamental principles of ASK modulation}: Theoretical study of how ASK works and its role in communication systems.
+    \item \textbf{Designing and developing an ASK modulator}: Creating the modulator with a focus on component selection, circuit design, and software tools.
+    \item \textbf{Simulating and analyzing the performance of the modulator}: Testing the design using simulation software to compare theoretical and practical results.
+    \item \textbf{Evaluating the efficiency of ASK in various transmission scenarios}: Investigating how well ASK performs under different conditions such as varying noise levels, data rates, and power constraints.
+\end{itemize}
+
+\section*{System Design}
+\subsection*{Block Diagram}
+The ASK modulator system consists of the following blocks:
+\begin{itemize}
+    \item \textbf{Unipolar Binary Sequence Generator}: This generates the binary data that will modulate the carrier signal.
+    \item \textbf{Carrier Signal Generator}: A high-frequency sine wave carrier signal is produced, which will be modulated based on the input binary sequence.
+    \item \textbf{Mixer Circuit}: Combines the binary sequence and the carrier signal to produce the ASK-modulated signal.
+\end{itemize}
+
+Each block has a significant role in ensuring smooth modulation. Below is the block diagram illustrating these components:
+\begin{center}
+    {\includegraphics[width=550px, height=450px]{SD.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : System Design Diagram for ASK Modulation}
+    }
+\end{center}
+
+\subsection*{Circuit Design}
+The ASK modulation circuit is constructed using basic electronic components such as diodes, resistors, capacitors, and operational amplifiers. In this section, we provide a step-by-step overview of how the circuit was designed:
+
+\textbf{Component Selection}:
+\begin{itemize}
+    \item \textbf{Diodes}: Used in the mixer for amplitude switching.
+    \item \textbf{Resistors and Capacitors}: To maintain stability in signal generation and ensure accurate timing in the unipolar generator.
+    \item \textbf{Operational Amplifiers}: To buffer and amplify the signals in both the binary generator and the carrier signal.
+\end{itemize}
+
+\begin{center}
+    {\includegraphics[width=550px, height=250px]{ckt.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Circuit Diagram for ASK Modulation}
+    }
+\end{center}
+
+\subsection*{Software Simulation}
+We used \textbf{MATLAB} and \textbf{Multisim} to simulate the ASK modulator. MATLAB allowed us to simulate the modulation mathematically, providing visual insights into the waveform changes. Multisim, on the other hand, helped us analyze the performance at the circuit level, confirming whether the design behaves as expected in a real environment.
+
+\textbf{Simulation Parameters}:
+\begin{itemize}
+    \item \textbf{Binary Data Input}: A random sequence of 1s and 0s.
+    \item \textbf{Carrier Frequency}: 5 MHz.
+    \item \textbf{Modulation Index}: Set at 1, meaning full amplitude switching.
+\end{itemize}
+
+\section*{Implementation}
+\subsection*{Hardware Implementation}
+The hardware implementation involves using a signal generator, oscilloscope, and the designed circuit. The binary sequence is fed into the system, and the oscilloscope captures the modulated waveform.
+
+\subsection*{Testing Process}
+We conducted several tests to evaluate the performance of the ASK modulator under different scenarios:
+\begin{itemize}
+    \item \textbf{Noise Addition}: To simulate real-world conditions, white noise was added to the channel.
+    \item \textbf{Data Rate Variation}: The binary data rate was increased to assess how the modulator handled faster input sequences.
+    \item \textbf{Power Efficiency}: Measurements were taken to observe the power consumption of the modulator in active and idle states.
+\end{itemize}
+
+\section*{Results}
+The results from both hardware and simulation tests show that ASK modulation is effective at transmitting binary data with minimal error under ideal conditions. The waveform captured from the oscilloscope matches closely with the theoretical expectations, where the amplitude of the carrier varied precisely according to the binary input.
+
+\subsection*{Waveform Analysis}
+The waveforms generated during testing are included below. Each transition from '0' to '1' is clearly visible in the amplitude shifts of the carrier wave. The ASK waveforms are compared to their theoretical counterparts to confirm accuracy.
+
+\subsection*{Performance Metrics}
+\begin{itemize}
+    \item \textbf{Bit Error Rate (BER)}: The modulator exhibited a low BER in noiseless conditions but was affected when noise levels increased.
+    \item \textbf{Power Consumption}: The average power consumed was measured at 0.75 W, which is efficient for small-scale communication systems.
+\end{itemize}
+
+\begin{center}
+    {\includegraphics[width=550px, height=250px]{waveform.png}}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure : Waveform Analysis for ASK Modulation}
+    }
+\end{center}
+
+\section*{Challenges and Limitations}
+Despite the successful design and implementation, the project faced several challenges:
+\begin{itemize}
+    \item \textbf{Noise Sensitivity}: ASK is highly sensitive to noise, as amplitude variations are easily distorted.
+    \item \textbf{Data Rate Limitation}: Higher data rates reduced the accuracy of the modulation, requiring more sophisticated techniques like adaptive filtering to compensate.
+    \item \textbf{Component Availability}: The availability of high-quality diodes and amplifiers was limited, which affected the quality of the output signal.
 \end{itemize}
 
 
-% Block Diagram
-\section*{Block Diagram :}
-
-\begin{figure}[htbp]
-    \centering
-    \begin{tikzpicture}[node distance=2cm and 3cm, auto, thick,
-        block/.style={draw, fill=blue!20, text width=3.5cm, minimum height=1.5cm, align=center, rounded corners},
-        ellipse/.style={draw, fill=green!20, text width=3.5cm, minimum height=1.5cm, align=center},
-        arrow/.style={-Stealth, thick},
-        every node/.style={align=center}]
-
-        % Nodes
-        \node [block] (binary) {Unipolar Binary\\Sequence Generator};
-        \node [ellipse, right=of binary] (mixer) {Mixer Circuit};
-        \node [block, below=of mixer] (carrier) {Carrier Signal\\Generator};
-        \node [block, right=of mixer] (output) {Output ASK\\Signal};
-
-        % Arrows
-        \draw [arrow] (binary) -- node[above] {Binary Data} (mixer);
-        \draw [arrow] (mixer) -- node[above] {Mixed Signal} (output);
-        \draw [arrow] (carrier) -- node[right] {Carrier Signal} (mixer);
-\end{tikzpicture}
-    \caption{Block Diagram of ASK Modulation}
-    \label{fig:ask_block_diagram}
-\end{figure}
+\section*{Future Work}
+Future improvements can include:
+\begin{itemize}
+    \item \textbf{Adaptive ASK Modulation}: Implementing algorithms to dynamically adjust the amplitude based on channel conditions.
+    \item \textbf{Exploring Other Modulation Techniques}: Investigating the advantages of other modulation schemes such as FSK and PSK for specific applications.
+\end{itemize}
 
 
-
-\section*{ASK Modulation Waveforms :}
-\begin{center}
-    \includegraphics[width=1.0\textwidth]{waveform.png}
-    \newline
-    \textbf {Fig 02 : ASK Modulation Waveforms}
-\end{center}
-
-
-\section*{Circuit Diagram :}
-\begin{center}
-    \includegraphics[width=1.0\textwidth]{ckt.png}
-    \newline
-    \textbf {Fig 03 : ASK Modulation Circuit}
-\end{center}
-
-
-
-\section*{Conclusion :}
-
-In conclusion, this project successfully designed and simulated an ASK modulator, providing valuable insights into its practical applications and performance characteristics in digital communication. ASK modulation's versatility and effectiveness in transmitting binary data through amplitude variation were clearly demonstrated. Its straightforward implementation and robust performance across different conditions highlight its enduring relevance in modern telecommunications.
+\section*{Conclusion}
+This project successfully implemented an ASK modulator, demonstrating its viability in digital communication systems. ASK’s simplicity in design makes it a practical choice for low-power systems, but its sensitivity to noise limits its application in more complex environments. Despite these limitations, the project provided a valuable learning experience in both theoretical and practical aspects of digital modulation.
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  14 SEP 2024 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  14 SEP 2024 22:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,20 +650,20 @@ Package hyperref Info: Link coloring OFF on input line 18.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<logo.png, id=6, 501.875pt x 501.875pt>
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 23.
-(pdftex.def)             Requested size: 226.48395pt x 226.48492pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+<./logo.png, id=6, 249.93375pt x 127.677pt>
+File: ./logo.png Graphic file (type png)
+<use ./logo.png>
+Package pdftex.def Info: ./logo.png  used on input line 23.
+(pdftex.def)             Requested size: 226.48395pt x 115.70114pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 62--75
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 60--73
  [][][] 
  []
 
@@ -671,39 +671,55 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 62--75
 
 [1
 
-{C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/beautybook/inner_pics/logo.png>]
+{C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo.png>]
+<SD.png, id=16, 1287.81125pt x 1237.62375pt>
+File: SD.png Graphic file (type png)
+<use SD.png>
+Package pdftex.def Info: SD.png  used on input line 104.
+(pdftex.def)             Requested size: 552.07777pt x 451.6817pt.
 
-[2]
-Overfull \hbox (42.39966pt too wide) in paragraph at lines 116--117
- [][] 
+Overfull \hbox (99.10988pt too wide) in paragraph at lines 104--109
+ [] 
  []
 
-<waveform.png, id=20, 434.8245pt x 208.3785pt>
-File: waveform.png Graphic file (type png)
-<use waveform.png>
-Package pdftex.def Info: waveform.png  used on input line 125.
-(pdftex.def)             Requested size: 452.9679pt x 217.07735pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128 \end{center}
+l.109 \end{center}
                    [1]
-<ckt.png, id=29, 458.9145pt x 227.04825pt>
+<ckt.png, id=25, 458.9145pt x 227.04825pt>
 File: ckt.png Graphic file (type png)
 <use ckt.png>
-Package pdftex.def Info: ckt.png  used on input line 133.
-(pdftex.def)             Requested size: 452.9679pt x 224.10634pt.
+Package pdftex.def Info: ckt.png  used on input line 122.
+(pdftex.def)             Requested size: 552.10915pt x 250.93867pt.
+
+Overfull \hbox (99.14125pt too wide) in paragraph at lines 122--127
+ [] 
+ []
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.144 \end{document}
-                     [2 <./waveform.png> <./ckt.png>] (CEL.aux)
+[2 <./SD.png>]
+
+[3 <./ckt.png>]
+<waveform.png, id=41, 434.8245pt x 208.3785pt>
+File: waveform.png Graphic file (type png)
+<use waveform.png>
+Package pdftex.def Info: waveform.png  used on input line 164.
+(pdftex.def)             Requested size: 552.07498pt x 250.94003pt.
+
+Overfull \hbox (99.10709pt too wide) in paragraph at lines 164--169
+ [] 
+ []
+
+
+
+[4 <./waveform.png>]
+
+[5] (CEL.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -712,17 +728,17 @@ Package rerunfilecheck Info: File `CEL.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41528 strings out of 473920
- 997231 string characters out of 5726974
+ 41487 strings out of 473920
+ 996061 string characters out of 5726974
  1935908 words of memory out of 5000000
- 63926 multiletter control sequences out of 15000+600000
- 563735 words of font info for 57 fonts, out of 8000000 for 9000
+ 63867 multiletter control sequences out of 15000+600000
+ 567476 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,93p,612b,873s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,93p,694b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on CEL.pdf (4 pages, 296149 bytes).
+Output written on CEL.pdf (6 pages, 415542 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
