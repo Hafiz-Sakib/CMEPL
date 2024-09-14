@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  14 SEP 2024 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  14 SEP 2024 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,54 +672,56 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 60--73
 [1
 
 {C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo.png>]
-<SD.png, id=16, 1287.81125pt x 1237.62375pt>
-File: SD.png Graphic file (type png)
-<use SD.png>
-Package pdftex.def Info: SD.png  used on input line 104.
-(pdftex.def)             Requested size: 552.07777pt x 451.6817pt.
-
-Overfull \hbox (99.10988pt too wide) in paragraph at lines 104--109
- [] 
- []
-
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109 \end{center}
-                   [1]
-<ckt.png, id=25, 458.9145pt x 227.04825pt>
+l.106     \item \textbf
+                       {Multimeter:} For measuring voltage, current, and res... [1]
+<SD.png, id=23, 1287.81125pt x 1237.62375pt>
+File: SD.png Graphic file (type png)
+<use SD.png>
+Package pdftex.def Info: SD.png  used on input line 121.
+(pdftex.def)             Requested size: 552.07777pt x 451.6817pt.
+
+Overfull \hbox (99.10988pt too wide) in paragraph at lines 121--126
+ [] 
+ []
+
+
+
+[2]
+<ckt.png, id=30, 458.9145pt x 227.04825pt>
 File: ckt.png Graphic file (type png)
 <use ckt.png>
-Package pdftex.def Info: ckt.png  used on input line 122.
+Package pdftex.def Info: ckt.png  used on input line 139.
 (pdftex.def)             Requested size: 552.10915pt x 250.93867pt.
 
-Overfull \hbox (99.14125pt too wide) in paragraph at lines 122--127
+Overfull \hbox (99.14125pt too wide) in paragraph at lines 139--144
  [] 
  []
 
 
 
-[2 <./SD.png>]
+[3 <./SD.png>]
 
-[3 <./ckt.png>]
-<waveform.png, id=41, 434.8245pt x 208.3785pt>
+[4 <./ckt.png>]
+<waveform.png, id=46, 434.8245pt x 208.3785pt>
 File: waveform.png Graphic file (type png)
 <use waveform.png>
-Package pdftex.def Info: waveform.png  used on input line 164.
+Package pdftex.def Info: waveform.png  used on input line 181.
 (pdftex.def)             Requested size: 552.07498pt x 250.94003pt.
 
-Overfull \hbox (99.10709pt too wide) in paragraph at lines 164--169
+Overfull \hbox (99.10709pt too wide) in paragraph at lines 181--186
  [] 
  []
 
 
 
-[4 <./waveform.png>]
+[5 <./waveform.png>]
 
-[5] (CEL.aux)
+[6] (CEL.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -728,17 +730,17 @@ Package rerunfilecheck Info: File `CEL.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 41487 strings out of 473920
- 996061 string characters out of 5726974
+ 41489 strings out of 473920
+ 996078 string characters out of 5726974
  1935908 words of memory out of 5000000
  63867 multiletter control sequences out of 15000+600000
  567476 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,93p,694b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on CEL.pdf (6 pages, 415542 bytes).
+Output written on CEL.pdf (7 pages, 417730 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
