@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  18 SEP 2024 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  18 SEP 2024 22:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,17 +626,17 @@ l.79 \newpage
 [2
 
 ]
-Underfull \hbox (badness 5637) in paragraph at lines 100--100
+Underfull \hbox (badness 5637) in paragraph at lines 102--102
 []|\OT1/cmr/m/n/12 Provides Blue-tooth com-mu-ni-ca-tion,
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 106--106
+Underfull \hbox (badness 1817) in paragraph at lines 108--108
 \OT1/cmr/m/n/12 4.8V-6V op-er-a-tion, 500mA-1A con-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 110--110
+Underfull \hbox (badness 1292) in paragraph at lines 112--112
 []|\OT1/cmr/m/n/12 Provides power to the com-po-nents.
  []
 
@@ -648,7 +648,7 @@ Underfull \hbox (badness 1292) in paragraph at lines 110--110
 <BD.png, id=75, 2038.61626pt x 4029.0525pt>
 File: BD.png Graphic file (type png)
 <use BD.png>
-Package pdftex.def Info: BD.png  used on input line 120.
+Package pdftex.def Info: BD.png  used on input line 121.
 (pdftex.def)             Requested size: 451.66986pt x 541.9928pt.
 
 
@@ -658,7 +658,7 @@ Package pdftex.def Info: BD.png  used on input line 120.
 <FD.png, id=81, 1540.75626pt x 4576.09625pt>
 File: FD.png Graphic file (type png)
 <use FD.png>
-Package pdftex.def Info: FD.png  used on input line 133.
+Package pdftex.def Info: FD.png  used on input line 134.
 (pdftex.def)             Requested size: 301.1163pt x 541.98567pt.
 
 
@@ -671,25 +671,25 @@ File: lstlang1.sty 2024/05/25 1.10b listings language file
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 146.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 147.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 147.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 148.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 147.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 156.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 148.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 157.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
 
 
 [6
 
 ]
-Overfull \hbox (61.68121pt too wide) in paragraph at lines 229--231
+Overfull \hbox (61.68121pt too wide) in paragraph at lines 230--232
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -698,19 +698,19 @@ Overfull \hbox (61.68121pt too wide) in paragraph at lines 229--231
 [7]
 
 [8]
-Overfull \hbox (61.68121pt too wide) in paragraph at lines 314--315
+Overfull \hbox (61.68121pt too wide) in paragraph at lines 315--316
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (103.98114pt too wide) in paragraph at lines 320--321
+Overfull \hbox (103.98114pt too wide) in paragraph at lines 321--322
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
 
 [9]
-Overfull \hbox (61.68121pt too wide) in paragraph at lines 344--345
+Overfull \hbox (61.68121pt too wide) in paragraph at lines 345--346
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -731,12 +731,12 @@ Overfull \hbox (61.68121pt too wide) in paragraph at lines 344--345
 [14
 
 ]
-Overfull \hbox (3.73181pt too wide) in paragraph at lines 416--417
+Overfull \hbox (3.73181pt too wide) in paragraph at lines 417--418
 []\OT1/cmr/m/n/12 Arduino. \OT1/cmr/m/it/12 Ar-duino Uno Rev3\OT1/cmr/m/n/12 . Re-trieved from []$\OT1/cmtt/m/n/12 https : / / www . arduino . cc / en / Guide /
  []
 
 
-Overfull \hbox (7.60683pt too wide) in paragraph at lines 417--418
+Overfull \hbox (7.60683pt too wide) in paragraph at lines 418--419
 []\OT1/cmr/m/n/12 Seeed Stu-dio. \OT1/cmr/m/it/12 HC-05 Blue-tooth Mod-ule\OT1/cmr/m/n/12 . Re-trieved from []$\OT1/cmtt/m/n/12 https : / / www . seeedstudio .
  []
 
@@ -761,7 +761,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,10n,93p,692b,2049s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MML.pdf (16 pages, 1007904 bytes).
+Output written on MML.pdf (16 pages, 1007925 bytes).
 PDF statistics:
  433 PDF objects out of 1000 (max. 8388607)
  232 named destinations out of 1000 (max. 500000)
